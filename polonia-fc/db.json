@@ -1,0 +1,72 @@
+{
+  "schedule": [
+    {
+      "id": 1,
+      "category": "over30",
+      "homeTeam": "O30 FC Polonia",
+      "guestTeam": "Danbury United",
+      "date": "2018-12-10T13:49:51.141Z"
+    },
+    {
+      "id": 2,
+      "category": "open",
+      "homeTeam": "FC Polonia",
+      "guestTeam": "Danbury United",
+      "date": "2018-12-10T13:49:51.141Z"
+    },
+    {
+      "id": 3,
+      "category": "over30",
+      "homeTeam": "O30 FC Polonia",
+      "guestTeam": "Danbury United",
+      "date": "2018-12-10T13:49:51.141Z"
+    },
+    {
+      "id": 4,
+      "category": "over30",
+      "homeTeam": "FC Polonia",
+      "guestTeam": "Danbury United",
+      "date": "2018-12-10T13:49:51.141Z"
+    },
+    {
+      "id": 5,
+      "category": "polonez",
+      "homeTeam": "SC Polonez",
+      "guestTeam": "Danbury United",
+      "date": "2018-12-10T13:49:51.141Z"
+    }
+  ],
+  "playersOpenPolonia": [
+    {
+      "id": 1,
+      "firstName": "some comment",
+      "lastName": 1,
+      "dob": "02/28/1992",
+      "position:": "GK"
+    },
+    {
+      "id": 2,
+      "firstName": "some comment",
+      "lastName": 1,
+      "dob": "02/28/1992",
+      "position:": "GK"
+    },
+    {
+      "id": 3,
+      "firstName": "some comment",
+      "lastName": 1,
+      "dob": "02/28/1992",
+      "position:": "GK"
+    },
+    {
+      "id": 4,
+      "firstName": "some comment",
+      "lastName": 1,
+      "dob": "02/28/1992",
+      "position:": "GK"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

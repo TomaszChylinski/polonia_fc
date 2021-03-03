@@ -6,13 +6,21 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './components/shared/footer/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header/header.component';
 import { NavigationComponent } from './components/shared/navigation/navigation/navigation.component';
+import { PromotionBannerComponent } from './components/shared/promotion-banner/promotion-banner.component';
+import { DashboardComponent } from './home/dashboard/dashboard.component';
+import { ScheduleComponent } from './home/upcoming/schedule/schedule.component';
+import { LeagueTableComponent } from './home/league-table/league-table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    NavigationComponent
+    NavigationComponent,
+    PromotionBannerComponent,
+    DashboardComponent,
+    ScheduleComponent,
+    LeagueTableComponent
   ],
   imports: [
     BrowserModule,
