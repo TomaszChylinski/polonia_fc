@@ -1,0 +1,86 @@
+export const cslStandings = [
+  {
+    teamName: 'Newtown Pride FC',
+    matchesPlayed: '9',
+    wins: 8,
+    draws: 1,
+    lossses: 0,
+    totalPoints: 25,
+  },
+  {
+    teamName: 'Bridgeport United FC',
+    matchesPlayed: '9',
+    wins: 8,
+    draws: 1,
+    lossses: 0,
+    totalPoints: 25,
+  },
+  {
+    teamName: 'KO Elites',
+    matchesPlayed: '9',
+    wins: 8,
+    draws: 1,
+    lossses: 0,
+    totalPoints: 25,
+  },
+  {
+    teamName: 'Sporting Hartford',
+    matchesPlayed: '9',
+    wins: 8,
+    draws: 1,
+    lossses: 0,
+    totalPoints: 25,
+  },
+  {
+    teamName: ' Polonia Falcon',
+    matchesPlayed: '9',
+    wins: 8,
+    draws: 1,
+    lossses: 0,
+    totalPoints: 25,
+  },
+  {
+    teamName: 'Bridgeport Brazilians',
+    matchesPlayed: '9',
+    wins: 8,
+    draws: 1,
+    lossses: 0,
+    totalPoints: 25,
+  },
+  {
+    teamName: 'Waterbury Pontes',
+    matchesPlayed: '9',
+    wins: 8,
+    draws: 1,
+    lossses: 0,
+    totalPoints: 25,
+  },
+  {
+    teamName: 'Glastonbury Celtic',
+    matchesPlayed: '9',
+    wins: 8,
+    draws: 1,
+    lossses: 0,
+    totalPoints: 25,
+  },
+  {
+    teamName: 'CT Roma',
+    matchesPlayed: '9',
+    wins: 8,
+    draws: 1,
+    lossses: 0,
+    totalPoints: 25,
+  },
+  {
+    teamName: 'Silk City',
+    matchesPlayed: '9',
+    wins: 8,
+    draws: 1,
+    lossses: 0,
+    totalPoints: 25,
+  },
+];
+
+export const over30Standings = [];
+
+export const over40Standings = [];
