@@ -7,7 +7,7 @@ import { cslStandings, over30Standings, over40Standings } from './standings-cons
 @Component({
   selector: 'app-league-table',
   templateUrl: './league-table.component.html',
-  styleUrls: ['./league-table.component.css'],
+  styleUrls: ['./league-table.component.scss'],
 
 
 })
@@ -21,6 +21,5 @@ export class LeagueTableComponent implements OnInit {
   }
 
   ngOnInit() {
-   
   }
 }
