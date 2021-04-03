@@ -1,4 +1,10 @@
-.promotion {
+.inner-wrapper{
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding-bottom: 4rem;
+}
+
+.main {
   border-radius: 25px;
   background: lightgray;
   height: 100%;
@@ -12,18 +18,13 @@
 
   &-items {
     display: flex;
-    align-items: flex-start;
   }
 
-  &-title {
-    font-weight: 500;
+  &-content {
+    padding: 2rem 2rem 2rem 2rem;
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
   }
-
-  &-text {
-    padding-left: 12px;
-  }
-}
-
-.inner-wrapper {
-  padding-bottom: 1.25rem;
 }

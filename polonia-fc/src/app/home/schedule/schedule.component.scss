@@ -1,0 +1,40 @@
+.schedule {
+  &-date {
+    background: darkred;
+    color: white;
+    border-radius: 20px;
+    padding: 0.2rem 0 0.2rem 1rem;
+  }
+
+  &-item {
+    display: flex;
+    border-bottom: 1px solid darkred;
+    margin-bottom: 0.5rem;
+  }
+
+  &-time {
+    width: 50px;
+    margin-left: 0.75rem;
+    text-overflow: ellipsis;
+  }
+
+  &-team1 {
+    margin-right: 0.75rem;
+    width: 50px;
+    font-weight: 500;
+    width: 6rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  &-team2 {
+    width: 50px;
+    margin-left: 0.75rem;
+    font-weight: 500;
+    width: 6rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}

@@ -8,8 +8,9 @@ import { HeaderComponent } from './components/shared/header/header/header.compon
 import { NavigationComponent } from './components/shared/navigation/navigation/navigation.component';
 import { PromotionBannerComponent } from './components/shared/promotion-banner/promotion-banner.component';
 import { DashboardComponent } from './home/dashboard/dashboard.component';
-import { ScheduleComponent } from './home/upcoming/schedule/schedule.component';
+import { ScheduleComponent } from './home/schedule/schedule.component';
 import { LeagueTableComponent } from './home/league-table/league-table.component';
+import { MainComponent } from './home/main/main.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LeagueTableComponent } from './home/league-table/league-table.component
     PromotionBannerComponent,
     DashboardComponent,
     ScheduleComponent,
-    LeagueTableComponent
+    LeagueTableComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
