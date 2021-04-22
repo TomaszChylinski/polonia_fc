@@ -1,30 +1,51 @@
-.inner-wrapper{
-  margin-left: 4rem;
-  margin-right: 4rem;
-  padding-bottom: 4rem;
-}
+// @import variables.scss;  
+// @import mixins.scss;  
 
 .main {
-  border-radius: 25px;
-  background: lightgray;
   height: 100%;
   width: 100%;
-  padding-left: 1.25rem;
-  padding-top: 1.25rem;
-  margin-bottom: 0;
-  margin-top: 1.25rem;
+  // padding-left: 1.25rem;
+  // padding-top: 1.25rem;
   position: relative;
-  margin-bottom: 1.25rem;
+  // margin-left: 4rem;
+  //   margin-right: 4rem;
+  &-wrapper {
+    margin: 4rem;
+    padding-bottom: 4rem;
+    background: rgb(255, 241, 241);
+    border-radius: 10px;
+  }
 
   &-items {
     display: flex;
-  }
-
-  &-content {
     padding: 2rem 2rem 2rem 2rem;
-    display: block;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 1;
-  }
-}
+    text-align: center;
+    // width: 100%;
+    // justify-content: center;
+
+    // @include media-breakpoint-up(sm){
+    //   display: column;
+    // }
+    }}
+    .one{
+      flex-basis: 150px;
+      flex-shrink: 0;
+      color: purple;
+    }
+    .two{
+      margin-left:2rem;
+      flex-grow: 2;
+    }
+
+
+    img { 
+      object-fit: contain;
+    }
+//   &-content {
+//     padding: 2rem 2rem 2rem 2rem;
+//     display: block;
+//     flex-basis: 0;
+//     flex-grow: 1;
+//     flex-shrink: 1;
+//   }
+// }

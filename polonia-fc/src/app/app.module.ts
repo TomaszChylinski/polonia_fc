@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './components/shared/footer/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header/header.component';
 import { NavigationComponent } from './components/shared/navigation/navigation/navigation.component';
-import { PromotionBannerComponent } from './components/shared/promotion-banner/promotion-banner.component';
+import { UpdateBannerComponent } from './home/update-banner/update-banner.component';
 import { DashboardComponent } from './home/dashboard/dashboard.component';
 import { ScheduleComponent } from './home/schedule/schedule.component';
 import { LeagueTableComponent } from './home/league-table/league-table.component';
 import { MainComponent } from './home/main/main.component';
+import { BannerItemComponent } from './home/update-banner/banner-item/banner-item.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +19,12 @@ import { MainComponent } from './home/main/main.component';
     FooterComponent,
     HeaderComponent,
     NavigationComponent,
-    PromotionBannerComponent,
+    UpdateBannerComponent,
     DashboardComponent,
     ScheduleComponent,
     LeagueTableComponent,
-    MainComponent
+    MainComponent,
+    BannerItemComponent
   ],
   imports: [
     BrowserModule,
