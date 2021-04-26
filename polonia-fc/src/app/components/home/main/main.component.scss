@@ -10,7 +10,7 @@
   // margin-left: 4rem;
   //   margin-right: 4rem;
   &-wrapper {
-    margin: 4rem;
+    margin-top: 4rem;
     padding-bottom: 4rem;
     background: rgb(255, 241, 241);
     border-radius: 10px;
@@ -39,6 +39,7 @@
 
 
     img { 
+     
       object-fit: contain;
     }
 //   &-content {
