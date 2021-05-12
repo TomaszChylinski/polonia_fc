@@ -1,11 +1,11 @@
 <div class="schedule">
-  <div class="schedule-date">Saturday, April 25</div>
+  <div class="schedule-date">{{scheduleItems.date}}</div>
 
   <div class="schedule-detail">
     <div class="schedule-game-info">
-      <div class="schedule-time">7pm</div>
-      <div class="schedule-teams">FC Polonia vs Hartford</div>
-      <div class="schedule-location">Gillete Statdium</div>
+      <div class="schedule-time">{{scheduleItems.time}}</div>
+      <div class="schedule-teams">{{scheduleItems.homeTeam}} vs {{scheduleItems.awayTeam}}</div>
+      <div class="schedule-location">{{scheduleItems.field}}</div>
     </div>
 
   </div>

@@ -1,6 +1,7 @@
 <div class="container">
-    <div>
-        <app-schedule-item></app-schedule-item>
+    <div *ngFor="let scheduleItem of scheduleItems"> 
+        <app-schedule-item
+        [scheduleItems]="scheduleItem"></app-schedule-item>
     </div>
     </div>
     
