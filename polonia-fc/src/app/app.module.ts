@@ -16,6 +16,7 @@ import { MainScheduleComponent } from './components/schedule/schedule.component'
 import { StandingsComponent } from './components/standings/standings.component';
 import { StandingsItemComponent } from './components/standings/standings-item/standings-item.component';
 import { ScheduleItemComponent } from './components/schedule/schedule-item/schedule-item.component';
+import {TeamComponent} from './components/team/team.component'
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { ScheduleItemComponent } from './components/schedule/schedule-item/sched
     StandingsComponent,
     StandingsItemComponent,
     ScheduleItemComponent,
+    TeamComponent
   ],
   imports: [BrowserModule, AppRoutingModule, AppRoutingModule],
   providers: [],
