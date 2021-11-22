@@ -5,4 +5,5 @@ export interface PlayerInfo {
     apperances: number;
     goals:number;
     assists:number;
+    flag: string
 }

@@ -1,10 +1,12 @@
+
 export const playerData = [{
     position: 'mid',
     firstName: 'Adrian',
     lastName: 'Baclawski',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/pl.png'
 },
 {
     position: 'mid',
@@ -12,7 +14,8 @@ export const playerData = [{
     lastName: 'Chylinski',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/pl.png'
 },
 {
     position: 'mid',
@@ -20,15 +23,17 @@ export const playerData = [{
     lastName: 'Floyd',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/usa.png'
 },
 {
-    position: 'att',
+    position: 'atk',
     firstName: 'Franc',
     lastName: 'Gjomarkaj',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/alb.png'
 },
 {
     position: 'mid',
@@ -36,7 +41,8 @@ export const playerData = [{
     lastName: 'Gomes',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/br.png'
 },
 {
     position: 'mid',
@@ -44,7 +50,8 @@ export const playerData = [{
     lastName: 'Gromadowski',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/pl.png'
 },
 {
     position: 'mid',
@@ -52,7 +59,8 @@ export const playerData = [{
     lastName: 'Krajinovic',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/bih.png'
 },
 {
     position: 'mid',
@@ -60,7 +68,8 @@ export const playerData = [{
     lastName: 'Labanowicz',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/pl.png'
 },
 {
     position: 'def',
@@ -68,7 +77,8 @@ export const playerData = [{
     lastName: 'Marut',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/pl.png'
 },
 {
     position: 'def',
@@ -76,7 +86,8 @@ export const playerData = [{
     lastName: 'Mikula',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/pl.png'
 },
 {
     position: 'gk',
@@ -84,7 +95,8 @@ export const playerData = [{
     lastName: 'Nadel',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/usa.png'
 },
 {
     position: 'def',
@@ -92,7 +104,8 @@ export const playerData = [{
     lastName: 'Oldzej',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/pl.png'
 },
 {
     position: 'mid',
@@ -100,7 +113,8 @@ export const playerData = [{
     lastName: 'Osmanovic',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/bih.png'
 },
 {
     position: 'def',
@@ -108,7 +122,8 @@ export const playerData = [{
     lastName: 'Osowiecki',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/pl.png'
 },
 {
     position: 'def',
@@ -116,15 +131,17 @@ export const playerData = [{
     lastName: 'Platkewicz',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/pl.png'
 },
 {
-    position: 'att',
+    position: 'atk',
     firstName: 'Adam',
     lastName: 'Sebastian',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/usa.png'
 },
 {
     position: 'def',
@@ -132,7 +149,8 @@ export const playerData = [{
     lastName: 'Sobilo',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/pl.png'
 },
 {
     position: 'gk',
@@ -140,7 +158,8 @@ export const playerData = [{
     lastName: 'Terrones',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/usa.png'
 },
 {
     position: 'def',
@@ -148,7 +167,8 @@ export const playerData = [{
     lastName: 'Terrones',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/usa.png'
 },
 {
     position: 'def',
@@ -156,7 +176,8 @@ export const playerData = [{
     lastName: 'Volyanik',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/ukraine.png'
 },
 {
     position: 'mid',
@@ -164,7 +185,8 @@ export const playerData = [{
     lastName: 'Zygo',
     apperances: 0,
     goals:0,
-    assists:0
+    assists:0,
+    flag:'../../../assets/images/flags/pl.png'
 },
 ]
 

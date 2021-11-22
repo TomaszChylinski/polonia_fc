@@ -11,34 +11,47 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <th scope="row">Goalkeepers</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
 
-        <tr>
-            <th scope="row">Goalkeepers</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-      <tr>
-        <th>
-          <img src="../../../assets//images/pl.png" class="flag flag-pl" />
-        </th>
-        <td>Tomasz</td>
-        <td>Chylinski</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
       </tr>
+
+      <tr *ngFor="let playerItem of goalkeeperInfo">
+        <td>
+          <img src={{playerItem.flag}} class="" />
+        </td>
+
+        <td>{{ playerItem.firstName }}</td>
+        <td>{{ playerItem.lastName }}</td>
+        <td>{{ playerItem.apperances }}</td>
+        <td>{{ playerItem.goals }}</td>
+        <td>{{ playerItem.assists }}</td>
+      </tr>
+
       <tr>
-        <th>
-          <img src="../../../assets//images/pl.png" class="flag flag-pl" />
-        </th>
-        <td>Maciek</td>
-        <td>Marut</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
+        <th scope="row">Defenders</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr *ngFor="let playerItem of defenderInfo">
+        <td>
+          <img src={{playerItem.flag}} class="" />
+        </td>
+
+        <td>{{ playerItem.firstName }}</td>
+        <td>{{ playerItem.lastName }}</td>
+        <td>{{ playerItem.apperances }}</td>
+        <td>{{ playerItem.goals }}</td>
+        <td>{{ playerItem.assists }}</td>
       </tr>
 
       <tr>
@@ -48,27 +61,18 @@
         <td></td>
         <td></td>
         <td></td>
-      </tr>
-      <tr>
-        <th>
-          <img src="../../../assets//images/pl.png" class="flag flag-pl" />
-        </th>
-        <td>Tomasz</td>
-        <td>Chylinski</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-      </tr>
 
-      <tr>
-        <th>
-          <img src="../../../assets//images/pl.png" class="flag flag-pl" />
-        </th>
-        <td>Tomasz</td>
-        <td>Chylinski</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
+      </tr>
+      <tr *ngFor="let playerItem of midfielderInfo">
+        <td>
+          <img src={{playerItem.flag}} class="" />
+        </td>
+
+        <td>{{ playerItem.firstName }}</td>
+        <td>{{ playerItem.lastName }}</td>
+        <td>{{ playerItem.apperances }}</td>
+        <td>{{ playerItem.goals }}</td>
+        <td>{{ playerItem.assists }}</td>
       </tr>
 
       <tr>
@@ -80,15 +84,16 @@
         <td></td>
       </tr>
 
-      <tr>
-        <th>
-          <img src="../../../assets//images/pl.png" class="flag flag-pl" />
-        </th>
-        <td>Tomasz</td>
-        <td>Chylinski</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
+      <tr *ngFor="let playerItem of fowardInfo">
+        <td>
+          <img src={{playerItem.flag}} class="" />
+        </td>
+
+        <td>{{ playerItem.firstName }}</td>
+        <td>{{ playerItem.lastName }}</td>
+        <td>{{ playerItem.apperances }}</td>
+        <td>{{ playerItem.goals }}</td>
+        <td>{{ playerItem.assists }}</td>
       </tr>
     </tbody>
   </table>
