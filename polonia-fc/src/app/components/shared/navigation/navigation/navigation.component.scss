@@ -1,3 +1,14 @@
+.navbar-brand img {
+  border-radius: 15%;
+}
+
+.navbar-brand img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
 ul {
   font-weight: 500;
 }
@@ -13,4 +24,8 @@ ul {
 
 .nav-item .nav-link {
   color: white;
+}
+
+.nav-item .nav-link:hover {
+  color: #e8e8e8;
 }
