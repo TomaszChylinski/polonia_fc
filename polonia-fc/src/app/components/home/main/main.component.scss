@@ -106,3 +106,24 @@ ul {
   text-align: center;
   left: -0.5em;
 }
+
+.fade-effect {
+  position: absolute;
+  bottom: 95px;
+  height: 50%;
+  width: 100%;
+  left: 10px;
+  /* background: -webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,98%,0)),to(#fafafa)); */
+  background: -webkit-linear-gradient(top, hsla(0, 0%, 98%, 0), #fafafa);
+  background: -o-linear-gradient(top, hsla(0, 0%, 98%, 0) 0, #fafafa 100%);
+  background: linear-gradient(180deg, hsla(0, 0%, 98%, 0), #fafafa);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
