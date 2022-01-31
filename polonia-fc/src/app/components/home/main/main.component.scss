@@ -96,15 +96,15 @@ li {
   margin: 10px 10px 10px 10px;
 }
 
-ul {
-  padding: 0 !important;
+.upcoming {
+  &-header {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
-.away-score::before {
-  content: "-";
-  width: 1em;
-  text-align: center;
-  left: -0.5em;
+ul {
+  padding: 0 !important;
 }
 
 .fade-effect {
