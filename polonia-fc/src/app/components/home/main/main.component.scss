@@ -39,19 +39,11 @@
   flex-grow: 2;
 }
 
-img {
+.banner-image {
   width: 80%;
   height: 80%;
   object-fit: contain;
 }
-//   &-content {
-//     padding: 2rem 2rem 2rem 2rem;
-//     display: block;
-//     flex-basis: 0;
-//     flex-grow: 1;
-//     flex-shrink: 1;
-//   }
-// }
 
 .latest-outter-wrapper {
   flex-grow: 1;
@@ -94,12 +86,48 @@ li {
   background-color: lightgray;
   color: black;
   margin: 10px 10px 10px 10px;
+
+  &-time {
+    font-size: 24px;
+  }
 }
 
 .upcoming {
   &-header {
     display: flex;
     justify-content: space-between;
+  }
+
+  &-date {
+    &-time {
+      font-size: 24px;
+    }
+  }
+
+  &-fixture {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+  }
+
+  &-home-team {
+    height: 100px;
+    width: 100px;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &-away-team {
+    height: 100px;
+    width: 100px;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
   }
 }
 
@@ -126,4 +154,8 @@ ul {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
+}
+
+span:hover {
+  font-size: larger;
 }

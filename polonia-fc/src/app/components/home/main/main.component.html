@@ -6,6 +6,7 @@
           <div class="news-item">
             <div class="news-image">
               <img
+                class="banner-image"
                 src="../../../../assets/images/over30/squad_picture2.png"
                 alt=""
               />
@@ -17,19 +18,53 @@
             <div class="row align-items-md-stretch">
               <div class="col-md-6 upcoming">
                 <div class="h-100 p-5 text-white bg-dark rounded-3">
-                  <div class="upcoming-header"> 
-                  <span type="button">Next Match</span> 
-                  <span type="button"> View All </span>
-                </div>
-                  <p>
-                    Swap the background-color utility and add a `.text-*` color
-                    utility to mix up the jumbotron look. Then, mix and match
-                    with additional component themes and more.
-                  </p>
-                  <button class="btn btn-outline-light" type="button">
-                    Example button
-                  </button>
-                </div>
+                  <div class="upcoming-header">
+                    <span type="button">Next Game</span>
+                    <span class="" [routerLink]="'/schedule'" type="button">
+                      View All
+                    </span>
+                  </div>
+                  <div class="upcoming-fixture">
+                    <div class="upcoming-home-team">
+                      <img
+                        src="../../../../../assets/images/polonia-rm-bg.png"
+                        alt=""
+                      />
+                    </div>
+
+                    <div class="upcoming-date">
+                      <div>Sun 06/02</div>
+                      <div class="upcoming-date-time">6:00 PM</div>
+
+                      <br />
+                    </div>
+
+                    <div class="upcoming-away-team">
+                      <img src="../../../../../assets/images/GFC.png" alt="" />
+                    </div>
+                  </div>
+                  <section class="border p-4 d-flex justify-content-center mb-4">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination mb-0">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">«</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">»</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </section>
+                
+
+    
               </div>
               <div class="col-md-6">
                 <div class="h-100 p-5 bg-light border rounded-3">
@@ -89,10 +124,12 @@
                       </tr>
                     </tbody>
                   </table>
-                  <div class='fade-effect'>
-
-                  </div>
-                  <button [routerLink]="['/standings']" class="btn btn-outline-secondary" type="button">
+                  <div class="fade-effect"></div>
+                  <button
+                    [routerLink]="['/standings']"
+                    class="btn btn-outline-secondary"
+                    type="button"
+                  >
                     View Standings
                   </button>
                 </div>
