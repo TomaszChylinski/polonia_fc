@@ -1,23 +1,46 @@
 .schedule {
-  &-date {
-    width: 100%;
-    background-color:#a50000;
-    color: white;
-    font-weight: bold;
-    font-size: 24px;
-    padding-left: 12px;
-    height: 5px;
-  }
-
-  &-detail {
-    border: black;
-    height: 200px;
-  }
-
-  &-game-info {
+  &-header {
     display: flex;
     justify-content: space-between;
-    padding: 12px;
-    font-weight: 500;
   }
+
+  &-item {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+  }
+
+  &-fixture {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+
+  &-home-team {
+    height: 100px;
+    width: 100px;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &-away-team {
+    height: 100px;
+    width: 100px;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &-vs {
+    margin-top: 35px;
+  }
+}
+
+hr {
+  background: white;
 }
