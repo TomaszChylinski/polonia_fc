@@ -1,16 +1,23 @@
 import { Component, Input, OnInit } from '@angular/core';
+import {
+  UpcomingGames,
+  PastResults,
+} from 'src/app/components/shared/data/schedule-data';
 
 @Component({
   selector: 'app-schedule-item',
   templateUrl: './schedule-item.component.html',
-  styleUrls: ['./schedule-item.component.scss']
+  styleUrls: ['./schedule-item.component.scss'],
 })
 export class ScheduleItemComponent implements OnInit {
-@Input() scheduleItems;
+  upcomingGames = UpcomingGames;
+  pastResults = PastResults;
 
-  constructor() { }
+  @Input() scheduleItems;
 
-  ngOnInit(): void {
-  }
+  displayUpcomingFixtures: boolean = true;
 
+  constructor() {}
+
+  ngOnInit() {}
 }
