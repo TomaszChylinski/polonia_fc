@@ -5,4 +5,6 @@ export interface GameInfo {
   leagueType: string;
   gameDetail: string;
   result?: string;
+  homeImgLogo?: string;
+  awayImgLogo?: string;
 }

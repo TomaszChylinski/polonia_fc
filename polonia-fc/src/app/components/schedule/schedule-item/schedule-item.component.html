@@ -2,24 +2,25 @@
   <ng-container *ngIf="displaySchedule">
     <div *ngFor="let game of upcomingGames" class="col-md-12 schedule">
       <div class="h-100 schedule-item text-white bg-dark rounded-3">
-        <div class="schedule-header"><span>TBD</span></div>
+        <div>
+          <span> {{ game.date }} &nbsp; |  &nbsp;   
+      
+            {{game.gameDetail}}
+           </span>
+        </div>
         <div class="schedule-fixture">
-          <div>
-            <span> {{ game.date }} </span>
-          </div>
           <div class="schedule-home-team">
-            <img src="assets/images/rmBg/polonia-rm-bg.png" alt="" />
+            <img src={{game.homeImgLogo}} alt="" />
+          </div>
+          <div class="schedule-team-info">
+            {{game.homeTeam}}
           </div>
           <div class="schedule-vs">VS</div>
-          <div class="schedule-away-team">
-            <img src="assets/images/rmBg/GFC.png" alt="" />
+          <div class="schedule-team-info">
+            {{game.awayTeam}}
           </div>
-          <div>
-            <span
-              >Shoreline Adult Soccer League
-              <br />
-              5:45 PM Falcon Field</span
-            >
+          <div class="schedule-home-team">
+            <img src={{game.awayImgLogo}} alt="" />
           </div>
         </div>
         <hr />
@@ -27,30 +28,30 @@
   ></ng-container>
 
   <ng-container *ngIf="!displaySchedule">
-    <div *ngFor="let pastGame of pastResults" class="col-md-12 schedule">
+    <div *ngFor="let game of pastGames" class="col-md-12 schedule">
       <div class="h-100 schedule-item text-white bg-dark rounded-3">
-        <div class="schedule-header"><span>TBD</span></div>
+        <div>
+          <span> {{ game.date }} &nbsp; |  &nbsp;   
+      
+            {{game.gameDetail}}
+           </span>
+        </div>
         <div class="schedule-fixture">
-          <div>
-            <span> {{ pastGame.date }} </span>
+          <div class="schedule-home-team">
+            <img src={{game.homeImgLogo}} alt="" />
+          </div>
+          <div class="schedule-team-info">
+            {{game.homeTeam}}
+          </div>
+          <div class="schedule-vs">{{game.result}}</div>
+          <div class="schedule-team-info">
+            {{game.awayTeam}}
           </div>
           <div class="schedule-home-team">
-            <img src="assets/images/rmBg/polonia-rm-bg.png" alt="" />
-          </div>
-          <div class="schedule-vs">VS</div>
-          <div class="schedule-away-team">
-            <img src="assets/images/rmBg/GFC.png" alt="" />
-          </div>
-          <div>
-            <span
-              >Shoreline Adult Soccer League
-              <br />
-              5:45 PM Falcon Field</span
-            >
+            <img src={{game.awayImgLogo}} alt="" />
           </div>
         </div>
         <hr />
-      </div>
-    </div>
+      </div></div>
   </ng-container>
 </div>

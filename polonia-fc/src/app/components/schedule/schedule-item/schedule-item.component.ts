@@ -7,7 +7,7 @@ import {
 } from '@angular/core';
 import {
   UpcomingGames,
-  PastResults,
+  PastGames,
 } from 'src/app/components/shared/data/schedule-data';
 
 @Component({
@@ -17,7 +17,7 @@ import {
 })
 export class ScheduleItemComponent implements OnInit, OnChanges {
   upcomingGames = UpcomingGames;
-  pastResults = PastResults;
+  pastGames = PastGames;
 
   @Input() displaySchedule: boolean;
 

@@ -1,3 +1,18 @@
 .container{
     margin-top:4rem;
 }
+
+.nav-link {
+    cursor: pointer;
+    color: #ba0d00;
+    font-weight: 500;
+}
+
+
+.nav-link:hover{
+    background: #fff1f1;
+}
+
+.disabled{
+    color: gray;
+}
