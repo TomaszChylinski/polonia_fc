@@ -1,59 +1,57 @@
 <div class="row align-items-md-stretch">
-  <div class="col-md-12 schedule">
-    <div class="h-100 schedule-item text-white bg-dark rounded-3">
-      <div class="schedule-header"><span>April</span></div>
-      <div class="schedule-fixture">
+  <ng-container *ngIf="displaySchedule">
+    <div *ngFor="let game of upcomingGames" class="col-md-12 schedule">
+      <div class="h-100 schedule-item text-white bg-dark rounded-3">
         <div>
-          <span> Apr <br>3 </span>
+          <span> {{ game.date }} &nbsp; |  &nbsp;   
+      
+            {{game.gameDetail}}
+           </span>
         </div>
-        <div class="schedule-home-team"><img src="assets/images/rmBg/polonia-rm-bg.png" alt=""></div>
-        <div class="schedule-vs"> VS </div>
-        <div class="schedule-away-team"><img src="assets/images/rmBg/GFC.png" alt=""></div>
+        <div class="schedule-fixture">
+          <div class="schedule-home-team">
+            <img src={{game.homeImgLogo}} alt="" />
+          </div>
+          <div class="schedule-team-info">
+            {{game.homeTeam}}
+          </div>
+          <div class="schedule-vs">VS</div>
+          <div class="schedule-team-info">
+            {{game.awayTeam}}
+          </div>
+          <div class="schedule-home-team">
+            <img src={{game.awayImgLogo}} alt="" />
+          </div>
+        </div>
+        <hr />
+      </div></div
+  ></ng-container>
+
+  <ng-container *ngIf="!displaySchedule">
+    <div *ngFor="let game of pastGames" class="col-md-12 schedule">
+      <div class="h-100 schedule-item text-white bg-dark rounded-3">
         <div>
-          <span>Shoreline Adult Soccer League
-            <br>
-            5:45 PM Falcon Field</span>
+          <span> {{ game.date }} &nbsp; |  &nbsp;   
+      
+            {{game.gameDetail}}
+           </span>
         </div>
-      </div>
-      <hr>
-    </div>
-  </div>
-  <div class="col-md-12 schedule">
-    <div class="h-100 schedule-item text-white bg-dark rounded-3">
-      <div class="schedule-header"><span>April</span></div>
-      <div class="schedule-fixture">
-        <div>
-          <span> Apr <br>3 </span>
+        <div class="schedule-fixture">
+          <div class="schedule-home-team">
+            <img src={{game.homeImgLogo}} alt="" />
+          </div>
+          <div class="schedule-team-info">
+            {{game.homeTeam}}
+          </div>
+          <div class="schedule-vs">{{game.result}}</div>
+          <div class="schedule-team-info">
+            {{game.awayTeam}}
+          </div>
+          <div class="schedule-home-team">
+            <img src={{game.awayImgLogo}} alt="" />
+          </div>
         </div>
-        <div class="schedule-home-team"><img src="assets/images/rmBg/polonia-rm-bg.png" alt=""></div>
-        <div class="schedule-vs"> VS </div>
-        <div class="schedule-away-team"><img src="assets/images/rmBg/GFC.png" alt=""></div>
-        <div>
-          <span>Shoreline Adult Soccer League
-            <br>
-            5:45 PM Falcon Field</span>
-        </div>
-      </div>
-      <hr>
-    </div>
-  </div>
-  <div class="col-md-12 schedule">
-    <div class="h-100 schedule-item text-white bg-dark rounded-3">
-      <div class="schedule-header"><span>April</span></div>
-      <div class="schedule-fixture">
-        <div>
-          <span> Apr <br>3 </span>
-        </div>
-        <div class="schedule-home-team"><img src="assets/images/rmBg/polonia-rm-bg.png" alt=""></div>
-        <div class="schedule-vs"> VS </div>
-        <div class="schedule-away-team"><img src="assets/images/rmBg/GFC.png" alt=""></div>
-        <div>
-          <span>Shoreline Adult Soccer League
-            <br>
-            5:45 PM Falcon Field</span>
-        </div>
-      </div>
-      <hr>
-    </div>
-  </div>
+        <hr />
+      </div></div>
+  </ng-container>
 </div>

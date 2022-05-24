@@ -1,8 +1,8 @@
 .schedule {
-  &-header {
-    display: flex;
-    justify-content: space-between;
-  }
+  // &-header {
+  //   display: flex;
+  //   justify-content: space-between;
+  // }
 
   &-item {
     padding-left: 3rem;
@@ -39,8 +39,17 @@
   &-vs {
     margin-top: 35px;
   }
+
+  &-team-info{
+    padding-top: 30px;
+  }
 }
 
 hr {
   background: white;
+}
+
+
+.disabled{
+  pointer-events: none;
 }
