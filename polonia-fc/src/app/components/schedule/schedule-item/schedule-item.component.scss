@@ -1,3 +1,7 @@
+// @import 'variables';
+// @import 'mixins';
+// @import 'bootstrap-utils';
+
 .schedule {
   // &-header {
   //   display: flex;
@@ -40,8 +44,11 @@
     margin-top: 35px;
   }
 
-  &-team-info{
+  &-team-info {
     padding-top: 30px;
+    @media (max-width: 575.98px) {
+      display: none;
+    }
   }
 }
 
@@ -49,7 +56,6 @@ hr {
   background: white;
 }
 
-
-.disabled{
+.disabled {
   pointer-events: none;
 }
