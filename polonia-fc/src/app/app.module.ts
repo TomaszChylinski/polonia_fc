@@ -16,7 +16,8 @@ import { MainScheduleComponent } from './components/schedule/schedule.component'
 import { StandingsComponent } from './components/standings/standings.component';
 import { StandingsItemComponent } from './components/standings/standings-item/standings-item.component';
 import { ScheduleItemComponent } from './components/schedule/schedule-item/schedule-item.component';
-import {TeamComponent} from './components/team/team.component'
+import {TeamComponent} from './components/team/team.component';
+import { NotFoundComponent } from './components/shared/not-found/not-found.component'
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import {TeamComponent} from './components/team/team.component'
     StandingsComponent,
     StandingsItemComponent,
     ScheduleItemComponent,
-    TeamComponent
+    TeamComponent,
+    NotFoundComponent
   ],
   imports: [BrowserModule, AppRoutingModule, AppRoutingModule],
   providers: [],
